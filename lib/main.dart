@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget {
             HomeScreen.RouteName: (_) => HomeScreen(),
             SearchScreen.RouteName: (_) => SearchScreen()
           },
-          home: startWidget,
+          home: LoginScreen(),
           //  initialRoute: LoginScreen.RouteName,
         ));
   }

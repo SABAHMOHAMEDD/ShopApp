@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
           appBar: AppBar(
             automaticallyImplyLeading: false,
             backwardsCompatibility: false,
-            title: Text(
+            title: const Text(
               'Shop',
             ),
             actions: [
